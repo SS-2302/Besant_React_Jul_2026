@@ -1,0 +1,9 @@
+02/07
+React - it is frontend library
+react is completely made up of jsx - javascript XML
+XML - combination of js and html
+
+components - reusable blocks
+2 types of class components - function componrnt and class component
+
+hooks - we can achieve lifecycle methods
