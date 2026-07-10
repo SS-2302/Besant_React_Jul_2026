@@ -11,3 +11,7 @@ hooks - we can achieve lifecycle methods
 03/07
 
 props & states
+
+07/07
+
+conditional rendering
