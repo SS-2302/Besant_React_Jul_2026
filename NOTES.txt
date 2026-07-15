@@ -15,3 +15,7 @@ props & states
 07/07
 
 conditional rendering
+
+10/07
+
+react state - changing state
