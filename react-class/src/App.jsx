@@ -1,4 +1,5 @@
 import ClientList from "./components/ClientList"
+import EmployeeList from "./components/EmployeeList"
 import Hospital from "./components/Hospital"
 import Patient from "./components/Patient"
 
@@ -9,6 +10,7 @@ function App() {
     {/* <Patient />
     <Hospital/> */}
     <ClientList/>
+    <EmployeeList/>
     </>
    )
 }

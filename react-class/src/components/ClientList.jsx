@@ -6,7 +6,7 @@ export default function ClientList() {
         const [count, setCount] = useState(1);
 
         function addClientName(){
-            const clientname= 'client'+count;
+            const clientname= 'client '+count;
             setClientList((previousState)=>{
                 return[...previousState, clientname]
             });
@@ -14,12 +14,14 @@ export default function ClientList() {
             setCount((previousState)=> { return previousState + 1 })
         }
 
-        console.log('current state', clientList);
+        // console.log('current state', clientList);
+
+        
         
 
   return (
     <>
-        <h1>List</h1>
+        <h1>Client List</h1>
         <button onClick={addClientName}>add a new client name</button>
         <ul>
             {
